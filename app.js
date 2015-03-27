@@ -64,7 +64,7 @@ app.get('/check', function(req,res){
   console.log(res.status);
 });
 
-http.createServer(app).listen(3000,function(){
+http.createServer(app).listen(process.env.PORT || 3000,function(){
 	console.log('Starting....')
 });
 
