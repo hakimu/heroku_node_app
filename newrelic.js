@@ -8,7 +8,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name : ['node_regex'],
+  app_name : ['heroku_node'],
   /**
    * Your New Relic license key.
    */
