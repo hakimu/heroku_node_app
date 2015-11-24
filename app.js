@@ -34,7 +34,7 @@ app.get('/external', function(req,res){
 });
 
 app.get('/', function(req,res){
-	res.send('This is the home page');
+	res.send('This is the home page!!!');
 	console.log(req.route)
 });
 
