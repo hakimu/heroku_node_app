@@ -38,6 +38,11 @@ app.get('/', function(req,res){
 	console.log(req.route)
 });
 
+app.get('/foo', function(req,res){
+	res.send('This is the foo page!!!');
+	console.log(req.route)
+});
+
 app.get('/about', function(req,res){
 	res.send('Will this be ignored???');
 });

@@ -4,6 +4,6 @@
   "private": true,
   "dependencies": {
     "express": "~4.0.0",
-    "newrelic": "1.18.5"
+    "newrelic": "1.30.1"
   }
 }
